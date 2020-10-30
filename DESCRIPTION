@@ -1,21 +1,15 @@
 Package: msmri
 Version: 0.3.1
 Title: Open Multiple Sclerosis Magnetic Resonance Imaging Data
-Description: Structural magnetic resonance imaging ('MRI') of patients with multiple sclerosis ('MS').  Cross-sectional and longitudinal imaging data are available. 
-Authors@R: c(person(given = "John", family = "Muschelli", 
-        role = c("aut", "cre"), email = "muschellij2@gmail.com")
-        )
+Description: Structural magnetic resonance imaging ('MRI') of patients
+        with multiple sclerosis ('MS').  Cross-sectional and
+        longitudinal imaging data are available.
+Authors@R: c(person(given = "John", family = "Muschelli", role =
+        c("aut", "cre"), email = "muschellij2@gmail.com") )
 License: GPL-3
-Depends:
-    R (>= 2.10)
-Imports:
-    httr
-Suggests: 
-    knitr,
-    rmarkdown,
-    covr,
-    testthat,
-    oro.nifti
+Depends: R (>= 2.10)
+Imports: httr
+Suggests: knitr, rmarkdown, covr, testthat, oro.nifti
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
@@ -25,3 +19,8 @@ VignetteBuilder: knitr
 URL: https://github.com/muschellij2/msmri
 BugReports: https://github.com/muschellij2/msmri/issues
 RoxygenNote: 6.0.1
+Additional_repositories: https://neuroconductor.org/releases/2020/10/
+Repository: Neuroconductor-Releases
+Remotes: 
+    neuroconductor-releases/oro.nifti@e68f8fa7e00dc917a459b9ebd529ac23924904d2
+biocViews: 
